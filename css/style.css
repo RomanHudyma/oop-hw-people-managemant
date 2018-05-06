@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+form#userData {
+    margin: 20px 0;
+    padding: 20px 30%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #999;
+    background-color: #d1d1d1;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+form label input, form label select {
+    padding: 5px 15px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+form input#save {
+    margin: 5px;
+    align-self: flex-end;
+    width: auto;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto 0;
+}
+
+#table th, #table td {
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    border: 3px solid #999;
+}
+
+
+

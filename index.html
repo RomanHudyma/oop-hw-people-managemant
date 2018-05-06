@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>People managemant</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="/#" method="post" id="userData">
+            <label for="name">Name:
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="sex">Sex:
+                <select name="sex" id="sex" form="userData">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+            <label for="birthdate">Birthdate:
+                <input type="date" name="birthdate" id="birthdate">
+            </label>
+            <label for="address">Address:
+                <input type="text" name="address" id="address">
+            </label>
+            <label for="phone">Phone format +00(000)-000-00-00:
+                <input type="text" name="phone" id="phone" placeholder="+00(000)-000-00-00">
+            </label>
+            <label for="email">Email:
+                <input type="email" name="email" id="email">
+            </label>
+            <input type="submit" value="Save" id="save">
+        </form>
+        <table id="table">
+            <tr>
+                <th>Name</th>
+                <th>Sex</th>
+                <th>Birthdate</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+        </table>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
